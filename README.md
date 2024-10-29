@@ -1,7 +1,5 @@
 ## Odin Recipes
 
-<h1>Odin Recipes</h1>
-
 <p lang="pt-BR">
   Um simples site de receitas contendo multiplas páginas HTML. 
   O objetivo do projeto é fixar meu aprendizado e praticar o 
