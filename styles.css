@@ -1,0 +1,15 @@
+html {
+  font-family: sans-serif;
+}
+
+#homepage-header {
+  text-align: center;
+}
+
+#recipes-navigation {
+  padding-left: 0;
+}
+
+#recipes-navigation a {
+  text-decoration: none;
+}
