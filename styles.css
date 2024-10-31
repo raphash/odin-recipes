@@ -1,10 +1,26 @@
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Default styles */
 html {
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
   color: #ccc;
-  background-color: #333;
+  background-color: #030016;
+}
+
+a {
+  color: #ccc;
+}
+
+h1, h2, h3 {
+  color: #e0e0e0;
 }
 
 /* Homepage */
@@ -12,16 +28,33 @@ body {
   text-align: center;
 }
 
-/* Homepage recipe navigation */
 #recipes-pages {
   padding-left: 0;
+  list-style-type: none;
 }
 
-/* Homepage navigation link */
-#recipes-pages .recipe-link {
+#recipes-pages li {
+  margin: 5px 0;
+}
+
+#odin-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 25%;
+}
+
+/* Recipe */
+.btn-back {
+  display: inline-block;
   text-decoration: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #270018;
 }
 
-a {
-  color: #ccc;
+#recipe-description,
+#recipe-ingredients li,
+#recipe-steps li {
+  max-width: 420px;
+  margin: 10px 0;
 }
